@@ -329,8 +329,12 @@ footer {
         flex-direction: column-reverse;
     }
 
+    .slider-img{
+        text-align: center;
+    }
+
     .slider-img img {
-        width: 100%;
+        width: 86%;
     }
 
     .slider-info {
