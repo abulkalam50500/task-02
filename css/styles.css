@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --text-color-version-01:#3A3A3A;
+    --button-color-version-01:#E02C6D;
+    --max-width-version-01:1155px;
+    --max-width-box-01:582px;
+}
+
+/* share css */
+.btn{
+    background-color: var(--button-color-version-01);
+    padding: 10px 21px;
+    border: none;
+    border-radius: 41px;
+    color: white;
+    font-weight: bold;
+}
+/* end share css */
+
+.poppins-thin-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 87px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:var(--text-version-01);
+}
+
+/* menu section  */
+
+.menus .menu_items{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    align-items: center;
+}
+.menus .menu_items li a{
+    text-decoration: none;
+    color: var(--text-color-version-01);
+    font-weight: 600;
+}
+
+.menus .menu_items li .search{
+   font-size: 1.3rem;
+}
+
+.menus .menu_items li .cart{
+   font-size: 1.7rem;
+}
+
+
+/* slider section  */
+.slider-container{
+    margin-top: 71px;
+    max-width: var(--max-width-version-01);
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-info{
+
+    max-width: var(--max-width-box-01);
+
+}
+.slider-info h1{
+    font-size: 3.3rem;
+    color: var(--text-color-version-01);
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.slider-info p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-color-version-01);
+    line-height: auto;
+    margin-bottom: 16px;
+}
+
+.slider-img img{
+    max-width: 440px;
+}
+
+ /* brand section  */
