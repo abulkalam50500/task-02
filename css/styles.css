@@ -294,6 +294,10 @@ footer {
     display: none;
 }
 
+.mobile_bg{
+    display: none;
+}
+
 /* media query */
 
 @media screen and (max-width:576px) {
@@ -327,6 +331,12 @@ footer {
 
     .slider {
         flex-direction: column-reverse;
+    }
+
+    .mobile_bg{
+        display: block;
+        position: absolute;
+        z-index: -999;
     }
 
     .slider-img{
